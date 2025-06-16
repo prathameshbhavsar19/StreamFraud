@@ -6,7 +6,8 @@ StreamFraud is a real-time credit card fraud detection system built using Apache
 
 ## Architecture
 
-![img.png](img.png)
+![architecture](https://github.com/user-attachments/assets/dbaee617-4185-4611-867d-47975ec46b2e)
+
 
 1. **Producer**  
    Reads the static `creditcard.csv`, shuffles and scales features, then publishes each transaction as a JSON record to the Kafka topic `transactions`.
